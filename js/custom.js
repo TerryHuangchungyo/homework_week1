@@ -104,8 +104,13 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-
+    $("#demo01").animatedModal();
+    $("#demo02").animatedModal({
+        modalTarget: 'animatedModal2'
+        });
+    $("#demo03").animatedModal({
+        modalTarget: 'animatedModal3'
+        });
     // Contact Form 	
 
     // validate contact form
